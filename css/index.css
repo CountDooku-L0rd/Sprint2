@@ -1,5 +1,7 @@
+@import "./normalize.css";
+@import "./blocks/body/body.css";
+@import "./blocks/body/__container/body__container.css";
 @import "./blocks/header/header.css";
 @import "./blocks/header/__lang-link/header__lang-link.css";
 @import "./blocks/header/__logo/header__logo.css";
-@import "./blocks/body/body.css";
-@import "./normalize.css";
+@import "./blocks/header/__logo/__img/header__logo__img.css";
