@@ -1,0 +1,5 @@
+.unordered-list{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
