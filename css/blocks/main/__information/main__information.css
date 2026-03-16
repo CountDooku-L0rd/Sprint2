@@ -1,6 +1,6 @@
-.main__greetings{
+.main__information{
+    width: 984px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 92px;
 }

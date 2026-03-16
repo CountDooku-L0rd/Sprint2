@@ -1,0 +1,9 @@
+.main__gallery{
+    width: 1184px;
+    height: 671px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 92px;
+}
