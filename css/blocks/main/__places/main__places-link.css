@@ -4,4 +4,9 @@
     letter-spacing: 0%;
     color: white;
     text-decoration: underline;
+    transition: all 0.4s;
+}
+
+.main__places-link:hover{
+    opacity: 60%;
 }

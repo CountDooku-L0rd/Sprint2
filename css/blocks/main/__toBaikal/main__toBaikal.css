@@ -1,11 +1,3 @@
 .main__toBaikal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1184px;
-    height: 740px;
-    background-image: url(../../../../assets/img/baikal-background.jpg);
-    background-repeat: no-repeat;
-    background-size: 1184px 740px;
     margin-bottom: 92px;
 }
