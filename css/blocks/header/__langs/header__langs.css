@@ -1,4 +1,5 @@
-.header__langs{
-    display: flex;
-    justify-content: center;
+.header__langs-list{
+    align-items: flex-end;
+    font-size: 24px;
+    line-height: 28px;
 }
