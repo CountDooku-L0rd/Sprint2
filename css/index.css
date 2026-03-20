@@ -19,7 +19,6 @@
 @import "./blocks/greetings/__image/greetings__image.css";
 @import "./blocks/greetings/__figcaption/greetings__figcaption.css";
 @import "./blocks/information/information.css";
-@import "./blocks/information/__container/information__container.css";
 @import "./blocks/information/__paragraph/information__paragraph.css";
 @import "./blocks/information/__list/information__list.css";
 @import "./blocks/information/__item-accent/information__item-accent.css";
@@ -31,8 +30,7 @@
 @import "./blocks/card/__url/card__url.css";
 @import "./blocks/card/__img/card__img.css";
 @import "./blocks/card/__info/card__info.css";
-@import "./blocks/card/__url-accent/card__url-accent.css";
-@import "./blocks/card/__link/card__link.css";
+@import "./blocks/card/__url-label/card__url-label.css";
 @import "./blocks/advert/advert.css";
 @import "./blocks/advert/__title/advert__title.css";
 @import "./blocks/advert/__subtitle/advert__subtitle.css";
