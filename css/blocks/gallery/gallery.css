@@ -1,6 +1,27 @@
 .gallery{
-    width: 1184px;
+    width: 288px;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 12px;
+}
+
+@media (min-width: 768px) {
+    .gallery{
+        width: 720px;
+        gap: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .gallery{
+        width: 928px;
+        gap: 14px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .gallery{
+        width: 1184px;
+        gap: 16px;
+    }
 }

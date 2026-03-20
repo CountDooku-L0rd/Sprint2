@@ -1,4 +1,25 @@
 .gallery__image{
-    width: 284px;
-    height: 213px;
+    width: 288px;
+    height: 216px;
+}
+
+@media (min-width: 768px) {
+    .gallery__image{
+        width: 352px;
+        height: 264px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .gallery__image{
+        width: 300px;
+        height: 225px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .gallery__image{
+        width: 284px;
+        height: 213px;
+    }
 }

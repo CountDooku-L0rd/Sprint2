@@ -1,4 +1,27 @@
 .card__img{
-    width: 460px;
-    height: 460px;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+    .card__img{
+        width: 340px;
+        height: 340px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card__img{
+        width: 440px;
+        height: 440px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .card__img{
+        width: 460px;
+        height: 460px;
+    }
 }

@@ -1,8 +1,8 @@
 .advert{
     position: relative;
     z-index: 1;
-    width: 1184px;
-    height: 740px;
+    width: 320px;
+    height: 200px;
 }
 .advert::before{
     content: "";
@@ -10,14 +10,50 @@
     z-index: -1;
     top: 0;
     left: 0;
-    width: 1184px;
-    height: 740px;
+    width: 320px;
+    height: 200px;
     background-image: url(../../../assets/img/baikal-background.jpg);
     background-repeat: no-repeat;
-    background-size: 1184px 740px;
+    background-size: 320px 200px;
     opacity: 80%;
     transition: all 0.6s;
 }
 .advert:hover::before{
     opacity: 30%;
+}
+
+@media (min-width: 768px) {
+    .advert{
+        width: 768px;
+        height: 480px;
+    }
+    .advert::before{
+        width: 768px;
+        height: 480px;
+        background-size: 768px 480px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .advert{
+        width: 1024px;
+        height: 640px;
+    }
+    .advert::before{
+        width: 1024px;
+        height: 640px;
+        background-size: 1024px 640px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .advert{
+        width: 1184px;
+        height: 740px;
+    }
+    .advert::before{
+        width: 1184px;
+        height: 740px;
+        background-size: 1184px 740px;
+    }
 }
