@@ -1,12 +1,7 @@
 .information{
     display: flex;
     flex-direction: column;
-}
-
-@media (min-width: 320px) {
-    .information{
-        width: 288px;
-    }
+    width: 288px;
 }
 
 @media (min-width: 768px) {

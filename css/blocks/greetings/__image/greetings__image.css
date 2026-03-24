@@ -1,8 +1,6 @@
-@media (min-width: 320px) {
-    .greetings__image {
-        width: 320px;
-        height: 200px;
-    }
+.greetings__image {
+    width: 320px;
+    height: 200px;
 }
 
 @media (min-width: 768px) {

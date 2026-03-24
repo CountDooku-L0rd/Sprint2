@@ -1,12 +1,7 @@
 .header__langs-list{
     align-items: flex-end;
-}
-
-@media (min-width: 320px) {
-    .header__langs-list{
-        font-size: 18px;
-        line-height: 20px;
-    }
+    font-size: 18px;
+    line-height: 20px;
 }
 
 @media (min-width: 768px) {
