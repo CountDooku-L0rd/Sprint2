@@ -1,0 +1,21 @@
+.information__list{
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+    width: 288px;
+}
+
+@media (min-width: 768px) {
+    .information__list{
+        width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .information__list{
+        width: 690px;
+    }
+}

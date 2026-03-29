@@ -1,0 +1,22 @@
+.information__title{
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    width: 288px;
+}
+
+@media (min-width: 768px) {
+    .information__title{
+        font-size: 54px;
+        line-height: 58px;
+        width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .information__title{
+        width: 690px;
+    }
+}

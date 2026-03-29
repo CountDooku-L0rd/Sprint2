@@ -1,0 +1,32 @@
+.advert__title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    width: 240px;
+    height: 70px;
+    margin: 0;
+    margin-top: 33px;
+}
+
+@media (min-width: 768px){
+    .advert__title{
+        font-size: 72px;
+        line-height: 76px;
+        width: 560px;
+        height: 152px;
+        margin-top: 115px;
+    }
+}
+
+@media (min-width: 1024px){
+    .advert__title{
+        margin-top: 195px;
+    }
+}
+
+@media (min-width: 1280px){
+    .advert__title{
+        margin-top: 245px;
+    }
+}

@@ -1,0 +1,21 @@
+.greetings__figcaption{
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+@media (min-width: 768px){
+    .greetings__figcaption{
+        margin-left: 24px;
+    }
+}
+
+@media (min-width: 1024px){
+    .greetings__figcaption{
+        margin-left: 0;
+    }
+}
+

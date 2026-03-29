@@ -1,0 +1,18 @@
+.advert__subtitle{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    width: 288px;
+    height: 48px;
+}
+
+@media (min-width: 768px) {
+    .advert__subtitle{
+        width: 360px;
+        height: 66px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,23 @@
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+}
+
+@media (min-width: 768px) {
+    .information{
+        width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .information{
+        width: 928px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .information{
+        width: 984px;
+    }
+}

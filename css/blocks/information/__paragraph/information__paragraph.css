@@ -1,0 +1,20 @@
+.information__paragraph{
+    font-size: 16px;
+    line-height: 163%;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 33px;
+    width: 288px;
+}
+
+@media (min-width: 768px) {
+    .information__paragraph{
+        width: 720px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .information__paragraph{
+        width: 690px;
+    }
+}

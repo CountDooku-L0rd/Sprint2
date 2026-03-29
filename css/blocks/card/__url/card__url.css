@@ -1,0 +1,30 @@
+.card__url{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 288px;
+    height: 46px;
+    margin-bottom: 32px;
+}
+
+@media(min-width: 768px){
+    .card__url{
+        width: 352px;
+        margin-bottom: 48px;
+        margin-left: 28px;
+    }
+}
+
+@media(min-width: 1024px){
+    .card__url{
+        width: 456px;
+        margin-top: 30px;
+        margin-left: 32px;
+    }
+}
+
+@media(min-width: 1280px){
+    .card__url{
+        margin-left: 40px;
+    }
+}
